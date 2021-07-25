@@ -6,6 +6,8 @@ import (
 	"time"
 )
 
+const Version = "v0.1.0"
+
 // 文字列をtimeへ変換
 var zoneRe = regexp.MustCompile(`[+-][0-9:]*$`)
 var spacesRe = regexp.MustCompile(` +`)
